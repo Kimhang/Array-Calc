@@ -8,6 +8,7 @@ use Data::Rand;
 use Data::Printer;
 
 our @EXPORT = qw( make_rand_arr calc_consecutive_words print_arr );
+our $VERSION = "0.01";
 
 sub make_rand_arr {
     my ( $num, @data ) = @_;
@@ -118,7 +119,7 @@ sub check_fin {
 1;
 __END__
 
-=encoding utf-8
+=encoding utf8
 
 =head1 NAME
 
@@ -136,9 +137,13 @@ Array::Calc - It's new $module
 =head1 DESCRIPTION
 
 Array::Calc is ...
+
 두 배열에서 서로 같은 요소의 최다 연속출연횟수를 계산하는 모듈입니다.
+
 1. 두 요소, A와 B 각각의 최다 연속출연횟수
+
 2. 서로 같은 요소의 최다 연속출연횟수
+
 3. 서로 같지 않은 요소의 최다 연속출연횟수
 
 =head1 LICENSE

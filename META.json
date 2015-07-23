@@ -52,5 +52,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Kimhang/Array-Calc/issues"
+      },
+      "homepage" : "https://github.com/Kimhang/Array-Calc",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Kimhang/Array-Calc.git",
+         "web" : "https://github.com/Kimhang/Array-Calc"
+      }
+   },
    "version" : "0.01"
 }
